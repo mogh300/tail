@@ -16,7 +16,7 @@ function App() {
   return (
   
     <>
-    <Pag2/>
+    <Pag1/>
 
     </>
   )

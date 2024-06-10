@@ -125,7 +125,7 @@ const Pag1 = () => {
       <h1 className=' text-5xl font-bold max-md:text-3xl '>What our clients say</h1>
      </div>
      <div className='max-md:text-center align-middle  container   pb-20    max-md:items-center   max-md:align-middle bg-primary h-75	 mt-12 rounded-3xl flex flex-col max-md:m-0 max-md:mt-8 max-md:h-auto max-md:hidden '>
-    <div className=' flex   items-center max-md:text-center align-middle   self-center  justify-center  max-md:items-center   max-md:align-middle  gap-4 pt-14     max-md:m-0 -ml-12    max-md:hidden ' >
+    <div className=' flex  absolute  items-center max-md:text-center align-middle   self-center  justify-center  max-md:items-center   max-md:align-middle  gap-4 pt-14     max-md:m-0 -ml-12    max-md:hidden ' >
     <div className=' p-16 bg-white h-80 max-md:text-center align-middle   justify-center  max-md:items-center   max-md:align-middle    rounded-3xl max-md:h-auto max-md:w-auto    max-md:flex-col max-md:p-3 m-5'>
         <img src=".\img\stars.png" alt="" /> 
         <p className=' text-p'>Yet preference connection unpleasant yet melancholy but end appearance. And excellence partiality estimating terminated day everything.</p>
@@ -145,9 +145,9 @@ const Pag1 = () => {
         <p className=' text-sm text-p '> Founder @ Migelko</p>
       </div>
     </div>
-     <div className='flex container  items-center justify-center   pt-3  max-md:hidden'>
-        <button className='flex justify-center items-center  rounded-full h-10  w-10  hover:bg-white  hover:transition-all  hover:duration-300'><img  src=".\l\vector (Stroke).svg" alt="" /> </button>
-        <button className='flex justify-center items-center  rounded-full h-10  w-10  hover:bg-white  hover:transition-all  hover:duration-300'> <img src=".\l\vector (Stroke)1.svg" alt="" /></button>
+     <div className='flex flex-row-reverse container  gap-2 items-center justify-center  mt-96   pt-10  max-md:hidden'>
+     <div className=' hover:border-2 hover:border-p h-10 w-10 flex items-center justify-center rounded-full  transition duration-1000'><img src=".\l2\Right arrow.svg" alt="" /> </div>
+     <div className=' hover:border-2 hover:border-p h-10 w-10 flex items-center justify-center rounded-full  transition duration-1000'><img src=".\l2\Left arrow.svg" alt="" /> </div>
      </div>
      </div>
 
@@ -259,7 +259,7 @@ const Pag1 = () => {
         <button className=' rounded-2xl w-10  bg-lime-800 text-bas'>01</button>
         <h1>Get more discount</h1>
       </div>
-      <div className='flex gap-16   mt-5 max-md:px-2'>
+      <div className='flex gap-16 container  mt-5 max-md:px-2'>
       <button className=' rounded-2xl w-10  hover:bg-bas  hover:transition hover:text-black duration-700 bg-cyan-800 text-bas'>02</button>
       <h1>Get premium travel magazine</h1>
       </div>
