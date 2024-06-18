@@ -2,14 +2,14 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className=" bg-background mt-24 pr-20 pl-24 flex flex-col items-center  container  ">
+    <section className=" bg-background mt-24 pr-20 pl-24 flex flex-col items-center   container  ">
       <div className="  flex  flex-col text-center  ">
         <h1 className=" text-4xl font-bold ">Services</h1>
         <p className=" text-p pt-5 text-2xl">
           Expertise services! Let’s check it out!
         </p>
       </div>
-      <div className="  flex max-md:flex-col  gap-10 container  mt-10  ">
+      <div className="  flex max-md:flex-col  gap-10 container  justify-center mt-10  ">
         <div className="flex flex-col  items-start  rounded-3xl p-5  gap-4 lg:w-60 border-2  pt-20 ">
           <img className="h-9   " src=".\l\Line.svg" alt="" />
           <h1 className=" py-1 font-bold">Webflow Develop</h1>
