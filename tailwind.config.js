@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       colors :{
-      'bas':'#FCFCFD',
+      'background':'#FCFCFD',
       'primary':' #6F61C0',
       'scenery':'#FFA41B',
-      'p':'#777E90',
+      'InkScribe':'#777E90',
        'm':'#3772FF',
         'kos':'#F4F5F6',
         'sher':' #141416',
@@ -21,9 +21,9 @@ export default {
         padding:{
           DEFAULT: '1rem',
         sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
+        // lg: '4rem',
+        // xl: '5rem',
+        // '2xl': '6rem',
         }
       },
     
