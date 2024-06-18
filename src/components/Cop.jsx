@@ -36,13 +36,13 @@ export default function Cop() {
         <a key={person.id} href="">
           <div className="flex flex-col container relative">
             <img className="rounded-2xl" src="/img/img.png" alt="" />
-            <div className="absolute rounded-full m-4 bg-InkScribe py-2 px-5">
+            <div className="absolute hidden rounded-full m-4  md:bg-InkScribe py-2 px-5">
               <h1 className="text-background text-sm font-DM">Product design</h1>
             </div>
             <div className="flex justify-between mt-2">
               <div className="text-left">
                 <h1 className="font-bold">{person.title}</h1>
-                <p className="text-sm text-foreground mt-1">{person.profession}</p>
+                <p className="text-sm text-foreground max-md:hidden mt-1">{person.profession}</p>
               </div>
               <div>
                 <img src="/img/small circle button.png" alt="" />
@@ -56,3 +56,4 @@ export default function Cop() {
     </div>
   );
 }
+

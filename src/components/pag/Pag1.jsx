@@ -6,6 +6,7 @@ import Some from "../Some";
 import Midnav from "../Midnav";
 import Cop from "../Cop";
 import Secendry from "../../Secendry";
+import Footer from "../Footer";
 const Pag1 = () => {
   return (
     <div className=" ">
@@ -23,6 +24,7 @@ const Pag1 = () => {
           </h1>
         </button>
         <Secendry></Secendry>
+        <Footer></Footer>
       </div>
     </div>
   );

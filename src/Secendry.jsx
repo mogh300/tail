@@ -3,7 +3,7 @@ import React from "react";
 const Secendry = () => {
   return (
     <div className="  flex mt-32 bg-primary pb-24">
-      <div className="  flex  container  justify-between  -  pt-12  max-md:h-auto ">
+      <div className="  flex  max-md:flex-col container  justify-between  -  pt-12  max-md:h-auto ">
         <div className="max-md:text-center  ">
           <h1 className=" mt-16 text-6xl max-md:text-4xl text-background">
             Got A Project ?! <br /> Let’s Talk!
