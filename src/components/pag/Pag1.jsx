@@ -3,6 +3,7 @@ import Top from "../Top";
 import Services from "./Services";
 import Mid from "../Mid";
 import Some from "../Some";
+import Client from "../Client";
 import Midnav from "../Midnav";
 import Cop from "../Cop";
 import Secendry from "../../Secendry";
@@ -14,12 +15,13 @@ const Pag1 = () => {
         <Top></Top>
         <Services></Services>
         <Mid></Mid>
+        <Client></Client>
         <Some></Some>
         <Midnav></Midnav>
         <Cop></Cop>
         <button className=" container max-md:hidden mt-10   flex start-40   hover:animate-pulse  bg-background">
           {" "}
-          <h1 className="border-2 rounded-full px-5 py-3 font-DM  text-xl">
+          <h1 className="border-2 rounded-full px-5 py-3 font-DM ">
             Show More
           </h1>
         </button>

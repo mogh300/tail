@@ -9,16 +9,16 @@ const Services = () => {
           Expertise services! Let’s check it out!
         </p>
       </div>
-      <div className=" flex max-md:flex-col  gap-10  mt-10 items-start">
-        <div className="flex flex-col  items-start h-60  w-52   gap-4 rounded-3xl container  border-2  pl-2 pt-20 ">
-          <img className="h-9  pl-5 " src=".\l\Line.svg" alt="" />
+      <div className="  flex max-md:flex-col  gap-10 container  mt-10  ">
+        <div className="flex flex-col  items-start  rounded-3xl p-5  gap-4 lg:w-60 border-2  pt-20 ">
+          <img className="h-9   " src=".\l\Line.svg" alt="" />
           <h1 className=" py-1 font-bold">Webflow Develop</h1>
           <p className=" text-sm ">Small description</p>
         </div>
 
-        <div className="flex  h-60   w-52  items-start border-2    pl-2 bg-primary text-background rounded-3xl  pt-20 ">
+        <div className="flex  h-60  gap-4   items-start border-2 p-5   lg:w-60    bg-primary text-background rounded-3xl  pt-20 ">
           <div className="flex flex-col  items-start  ">
-            <img className="h-9 pl-5   " src=".\l\Line.svg" alt="" />
+            <img className="h-9    " src=".\l\Line.svg" alt="" />
             <h1 className="  py-2  font-bold">Webflow Develop</h1>
             <p className=" text-sm  ">Small description</p>
           </div>
@@ -28,8 +28,8 @@ const Services = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col  border-2  h-60  w-52  gap-4 rounded-3xl pl-2 pt-20  ">
-          <img className="h-9 pl-5 " src=".\l\Line.svg" alt="" />
+        <div className="flex flex-col  h-60 border-2   items-start lg:w-60 p-5    gap-4 rounded-3xl pt-20  ">
+          <img className="h-9  " src=".\l\Line.svg" alt="" />
           <h1 className="py-1 font-bold ">Webflow Develop</h1>
           <p className=" text-sm ">Small description</p>
         </div>

@@ -4,8 +4,8 @@ const Midnav = () => {
   return (
     <>
       <div className="flex flex-col mt-40    container max-md:text-center">
-        <div className="   flex  container   justify-between  ">
-          <h1 className=" text-5xl font-bold  max-md:pl-16 ">Portfolio</h1>
+        <div className="   flex    justify-between  ">
+          <h1 className=" text-5xl font-bold   ">Portfolio</h1>
           <div className=" flex flex-row-reverse">
             <div className=" hover:border-2 hover:border-p h-10 w-10 flex items-center justify-center rounded-full  transition duration-1000">
               <img src=".\l2\Right arrow.svg" alt="" />{" "}

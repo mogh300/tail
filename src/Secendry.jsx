@@ -12,7 +12,7 @@ const Secendry = () => {
             Stacks is a production-ready library of stackable content <br />{" "}
             blocks built in React Native.
           </p>
-          <button className=" mt-12   bg-scenery w-44 rounded-3xl text-background  gap-5 text-center px-2    h-12">
+          <button className=" mt-12  hover:bg-primary hover:text-black    bg-scenery w-44 rounded-3xl text-background  gap-5 text-center px-2    h-12">
             Contact
           </button>
         </div>

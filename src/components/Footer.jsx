@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" bg-InkScribe  h-px  my-20  container"></div>
+      <div className=" bg-InkScribe  h-px  my-20   mx-20"></div>
       <div className=" container flex mt-10 flex-row-reverse max-sm:gap-20 max-md:gap-40 lg:gap-80 max-md:text-center max-md:flex-col pb-11    ">
         <div className=" flex-col items-center ">
           <div className="flex gap-9  items-center">

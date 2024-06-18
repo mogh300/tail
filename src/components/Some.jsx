@@ -2,7 +2,7 @@ import React from "react";
 
 const Some = () => {
   return (
-    <div className=" mt-24   ext-center">
+    <div className=" mt-24   text-center">
       <img
         className=" absolute  z-10 end-0 w-96  "
         src=".\img\Ellipse 1329.png"

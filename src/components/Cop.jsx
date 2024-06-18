@@ -30,7 +30,7 @@ const people = [{
 export default function Cop() {
   return (
     <div>
-           <div className='flex  items-center mt-16 justify-center gap-10 max-md:flex-col container   '>
+           <div className='flex  items-center mt-16 justify-center gap-10 max-md:flex-col    '>
            <div className='  grid grid-cols-3 gap-5'>
       {people.map((person) => (
         <a key={person.id} href="">
