@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className=" bg-background mt-24 pr-20 pl-24 flex flex-col items-center  container  ">
+    <section className=" bg-background mt-24 pr-20 pl-24 flex flex-col items-center  container  ">
       <div className="  flex  flex-col text-center  ">
         <h1 className=" text-4xl font-bold ">Services</h1>
         <p className=" text-p pt-5 text-2xl">
@@ -34,7 +34,7 @@ const Services = () => {
           <p className=" text-sm ">Small description</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

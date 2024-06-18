@@ -19,7 +19,7 @@ const Midnav = () => {
           Digital Products Showcases
         </p>
       </div>
-      <div className="  flex  justify-between mt-10  container ">
+      <nav className="  flex  justify-between mt-10  container ">
         <div className="  flex  justify-between max-md:hidden ">
           <button className="w-10  h-6 rounded-2xl bg-InkScribe text-white">
             all
@@ -36,7 +36,7 @@ const Midnav = () => {
             <img src=".\l\Small.svg" alt="" />
           </button>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

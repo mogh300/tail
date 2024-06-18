@@ -29,7 +29,7 @@ const people = [{
 
 export default function Cop() {
   return (
-    <div>
+    <section>
            <div className='flex  items-center mt-16 justify-center gap-10 max-md:flex-col    '>
            <div className='  grid grid-cols-3 gap-5'>
       {people.map((person) => (
@@ -53,7 +53,7 @@ export default function Cop() {
       ))}
     </div>
     </div>
-    </div>
+    </section>
   );
 }
 

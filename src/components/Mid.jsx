@@ -2,7 +2,7 @@ import React from 'react'
 
 const Mid = () => {
   return (
-    <div>  <img className=' absolute  max-md:hidden  h-96 w-96  z-0 ' src=".\img\Ellipse 1328.png" alt="" />  
+    <section>  <img className=' absolute  max-md:hidden  h-96 w-96  z-0 ' src=".\img\Ellipse 1328.png" alt="" />  
     <div className=' bg-background mt-28  flex flex-col  justify-between container   z-20 '>
       <div className='  flex  flex-col  justify-between text-center z-20'>
         <h1 className=' text-4xl font-bold '>About me</h1>
@@ -27,7 +27,7 @@ const Mid = () => {
   
   
     </div>
-  </div>
+  </section>
   )
 }
 

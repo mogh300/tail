@@ -2,7 +2,7 @@ import React from "react";
 
 const Client = () => {
   return (
-    <div className="max-md:text-center   container   max-md:items-center   max-md: ">
+    <section className="max-md:text-center   container   max-md:items-center   max-md: ">
       <div className="mt-24  flex  flex-col  justify-center items-center max-md:hidden ">
         <h1 className=" text-5xl font-bold max-md:text-3xl ">
           What our clients say
@@ -50,7 +50,7 @@ const Client = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

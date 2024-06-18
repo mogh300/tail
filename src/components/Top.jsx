@@ -3,7 +3,7 @@ import React from "react";
 const Top = () => {
   return (
     <section className=" bg-primary  ">
-      <div className="  h-24	 flex justify-between  flex-row-reverse    pt-4  max-md:hidden items-center container">
+      <nav className="  h-24	 flex justify-between  flex-row-reverse    pt-4  max-md:hidden items-center container">
         <div className="  lg:gap-10  items-center lg: flex  max-md:text-center  ">
           <button className=" h-12   text-background flex gap-6  items-center ">
             <img className=" to-background  " src=".\l\Shape.svg" alt="" />
@@ -27,7 +27,7 @@ const Top = () => {
           {" "}
           <h1 className=" text-3xl text-cyan-50 font-DM ">TinTin</h1>{" "}
         </div>
-      </div>
+      </nav>
       <div className="  container  flex  text-center    justify-between  items-center  max-md:flex-col-reverse flex-row-reverse">
         <img
           src=".\img\566193b360d6ff97332245b9f146a844.png"

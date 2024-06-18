@@ -31,5 +31,4 @@ const Pag1 = () => {
     </div>
   );
 };
-
 export default Pag1;
