@@ -42,14 +42,14 @@ const Footer = () => {
       </div>
       <div className=" bg-InkScribe  h-px  my-20   mx-20"></div>
       <div className=" container flex mt-10 flex-row-reverse max-sm:gap-20 max-md:gap-40 lg:gap-80 max-md:text-center max-md:flex-col pb-11    ">
-        <div className=" flex-col items-center ">
+        <div className=" flex flex-col items-center  container">
           <div className="flex gap-9  items-center">
             <h3 className=" text-p">Home</h3>
             <h3 className=" text-p">Services</h3>
             <h3 className=" text-p">About</h3>
             <h3 className=" text-p">Portfolio</h3>
           </div>
-          <div className="flex gap-8 mt-4 items-center container ">
+          <div className="flex gap-8 mt-4 items-center  ">
             <div className=" flex items-center bg-scenery rounded h-10 w-10  justify-center  ">
               <img src=".\l\linked_in.png" alt="" />
             </div>
@@ -64,9 +64,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex-col container ">
+        <div className="flex-col  ">
           <h1 className=" text-4xl font-bold">TINTIN</h1>
-          <p className=" text-sm text-p pt-10">
+          <p className="lg:w-80 text-sm  pt-10">
             Copyright © 2021 UI8 LLC. All rights reserved
           </p>
         </div>
