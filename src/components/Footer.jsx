@@ -32,7 +32,7 @@ const Footer = () => {
               placeholder="Enter your email "
               type="text"
             ></input>
-            <img
+            <imgs
               className=" h-8  "
               src=".\l\small circle button.png"
               alt=""
