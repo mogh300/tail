@@ -3,31 +3,6 @@ import React from "react";
 const Top = () => {
   return (
     <section className=" bg-primary  ">
-      <nav className="  h-24	 flex justify-between  flex-row-reverse    pt-4  max-md:hidden items-center container">
-        <div className="  lg:gap-10  items-center lg: flex  max-md:text-center  ">
-          <button className=" h-12   hover:animate-pulse text-background flex gap-6  items-center ">
-            <img className=" h-6  " src="src/assets/SolarGlobalOutline (2).svg" alt="" />
-            language
-          </button>
-          <button className="  bg-scenery   hover:bg-primary hover:text-black  w-44 rounded-3xl text-background  gap-5 text-center px-2   h-12">
-           
-            Download CV
-          </button>
-        </div>
-        <div className=" ">
-          <ul className=" list-none  flex    gap-8   max-md:hidden   ">
-            <a href=""><li className="  text-cyan-50  font-DM">Home</li></a>
-            <a href=""><li className="  text-cyan-50 ">Services</li></a> 
-            <a href=""><li className="  text-cyan-50 ">About</li></a>   
-            <a href=""><li className="  text-cyan-50 ">Portfolio</li></a>     
-            <a href=""><li className="  text-cyan-50 ">Contact</li></a>   
-            </ul>
-        </div>
-        <div className="   max-md:hidden ">
-          {" "}
-         <a href=""><h1 className=" text-3xl text-cyan-50 font-DM ">TinTin</h1> </a> {" "}
-        </div>
-      </nav>
       <div className="  container  flex     justify-between  items-center  max-md:flex-col-reverse flex-row-reverse">
         <img
           src=".\img\566193b360d6ff97332245b9f146a844.png"

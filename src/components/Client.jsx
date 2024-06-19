@@ -9,7 +9,7 @@ const Client = () => {
         </h1>
       </div>
       <div className="max-md:text-center  pb-8 container      max-md:items-center   max-md: bg-primary 	 mt-8 rounded-3xl flex flex-col max-md:h-auto max-md:hidden ">
-        <div className=" flex  absolute   mb-16 items-center max-md:text-center    self-center  justify-center  max-md:items-center   max-md:  gap-4 pt-14     max-md:m-0 -ml-12    max-md:hidden  ">
+        <div className="container flex  absolute   mb-16 items-center max-md:text-center    self-center  justify-center  max-md:items-center   max-md:  gap-4 pt-14     max-md:m-0 -ml-12    max-md:hidden  ">
           <div className=" p-16 bg-white h-80 max-md:text-center  shadow-md   justify-center  max-md:items-center      rounded-3xl max-md:h-auto max-md:w-auto    max-md:flex-col max-md:p-3 m-5">
            <h1 className=" py-2"> ⭐️⭐️⭐️⭐️⭐️</h1>
             <p className=" text-p">

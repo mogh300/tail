@@ -8,10 +8,12 @@ import Midnav from "../Midnav";
 import Cop from "../Cop";
 import Secendry from "../../Secendry";
 import Footer from "../Footer";
+import Header from "../Header";
 const Pag1 = () => {
   return (
     <div className=" ">
       <div className="  bg-background  mx-auto  justify-center   font-DM  max-md:items-center max-md:text-center ">
+        <Header></Header>
         <Top></Top>
         <Services></Services>
         <Mid></Mid>

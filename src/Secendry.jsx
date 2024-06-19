@@ -3,8 +3,8 @@ import React from "react";
 const Secendry = () => {
   return (
     <div className="  flex mt-32 bg-primary pb-24">
-      <div className="  flex  max-md:flex-col container  max-md:items-center max-md:justify-center gap-8  -  pt-12  max-md:h-auto ">
-        <div className="max-md:text-center   ">
+      <div className="  flex  max-md:flex-col container  items-center max-md:justify-center gap-8  -  pt-12  max-md:h-auto ">
+        <div className="max-md:text-center">
           <h1 className=" mt-16 text-6xl max-md:text-4xl text-background">
             Got A Project ?! <br /> Let’s Talk!
           </h1>
@@ -16,9 +16,8 @@ const Secendry = () => {
             Contact
           </button>
         </div>
-        <div className=" ">
-          {" "}
-          <img src=".\img\calling-5779539-4849629 1.png" alt="" />{" "}
+        <div>
+          <img src=".\img\calling-5779539-4849629 1.png" />
         </div>
       </div>
     </div>
