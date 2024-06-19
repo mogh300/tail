@@ -22,7 +22,7 @@ const Pag1 = () => {
         <button className=" container max-md:hidden mt-10   flex start-40   hover:animate-pulse  bg-background">
           {" "}
           <h1 className="border-2 rounded-full px-5 py-3 font-DM ">
-            Show More
+            Show More {">"}
           </h1>
         </button>
         <Secendry></Secendry>

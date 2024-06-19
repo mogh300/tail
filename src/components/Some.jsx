@@ -2,13 +2,14 @@ import React from "react";
 
 const Some = () => {
   return (
-    <section className=" mt-24   text-center">
+    <section className=" mt-24 text-center">
       <img
-        className=" absolute  z-10 end-0 w-96  "
+        className=" absolute   -z-0
+         end-0   "
         src=".\img\Ellipse 1329.png"
         alt=""
       />
-      <div className="  flex  flex-col z-20   items-center container">
+      <div className="  flex  flex-col   items-center container">
         <h1 className=" text-4xl font-bold ">Process</h1>
         <p className=" text-p pt-5 text-2xl">My working process</p>
       </div>

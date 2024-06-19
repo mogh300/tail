@@ -26,9 +26,9 @@ const Footer = () => {
             </button>
             <h1>Get premium travel magazine</h1>
           </div>
-          <div className="flex  items-center  justify-center max-md:px-2 border-2 rounded-full max-md:justify-between  w-80  max-md:start-1 pl-3  pb-3 mt-5  ">
+          < button className="flex  items-center   align-middle max-md:px-2 border-2 rounded-full justify-between  w-80  max-md:start-1  py-1 px-3 mt-5  ">
             <input
-              className=" flex items-center  border-none"
+              className=" flex items-center  justify-center border-none"
               placeholder="Enter your email "
               type="text"
             ></input>
@@ -37,7 +37,7 @@ const Footer = () => {
               src=".\l\small circle button.png"
               alt=""
             />
-          </div>
+          </button>
         </div>
       </div>
       <div className=" bg-InkScribe  h-px  my-20   mx-20"></div>

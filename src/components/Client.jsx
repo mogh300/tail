@@ -8,36 +8,36 @@ const Client = () => {
           What our clients say
         </h1>
       </div>
-      <div className="max-md:text-center  pb-20 container      max-md:items-center   max-md: bg-primary h-75	 mt-8 rounded-3xl flex flex-col max-md:h-auto max-md:hidden ">
+      <div className="max-md:text-center  pb-8 container      max-md:items-center   max-md: bg-primary 	 mt-8 rounded-3xl flex flex-col max-md:h-auto max-md:hidden ">
         <div className=" flex  absolute   mb-16 items-center max-md:text-center    self-center  justify-center  max-md:items-center   max-md:  gap-4 pt-14     max-md:m-0 -ml-12    max-md:hidden  ">
-          <div className=" p-16 bg-white h-80 max-md:text-center  shadow-md   justify-center  max-md:items-center   max-md:    rounded-3xl max-md:h-auto max-md:w-auto    max-md:flex-col max-md:p-3 m-5">
-            <img src=".\img\stars.png" alt="" />
+          <div className=" p-16 bg-white h-80 max-md:text-center  shadow-md   justify-center  max-md:items-center      rounded-3xl max-md:h-auto max-md:w-auto    max-md:flex-col max-md:p-3 m-5">
+           <h1 className=" py-2"> ⭐️⭐️⭐️⭐️⭐️</h1>
             <p className=" text-p">
               Yet preference connection unpleasant yet melancholy but end
               appearance. And excellence partiality estimating terminated day
               everything.
             </p>
-            <h1 className=" ml-4 pt-2 text-xl align-text-bottom">sam</h1>
+            <h1 className="  py-2 text-xl align-text-bottom font-bold">sam</h1>
             <p className=" text-sm text-p "> Founder @ Migelko</p>
           </div>
           <div className=" p-16 bg-white h-80  shadow-md    rounded-3xl  max-md:hidden">
-            <img src=".\img\stars.png" alt="" />
+          <h1 className=" py-2"> ⭐️⭐️⭐️⭐️⭐️</h1>
             <p className=" text-p">
               Yet preference connection unpleasant yet melancholy but end
               appearance. And excellence partiality estimating terminated day
               everything.
             </p>
-            <h1 className=" ml-4 pt-2 text-xl align-text-bottom">sam</h1>
+            <h1 className="  pt-2 text-xl align-text-bottom font-bold">sam</h1>
             <p className=" text-sm text-p "> Founder @ Migelko</p>
           </div>
           <div className=" p-16 bg-white h-80  shadow-md  rounded-3xl max-sm:hidden ">
-            <img src=".\img\stars.png" alt="" />
+          <h1 className=" py-2"> ⭐️⭐️⭐️⭐️⭐️</h1>
             <p className=" text-p">
               Yet preference connection unpleasant yet melancholy but end
               appearance. And excellence partiality estimating terminated day
               everything.
             </p>
-            <h1 className=" ml-4 pt-2 text-xl align-text-bottom">sam</h1>
+            <h1 className="  pt-2 text-xl align-text-bottom font-bold">sam</h1>
             <p className=" text-sm text-p "> Founder @ Migelko</p>
           </div>
         </div>
