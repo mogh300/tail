@@ -2,7 +2,7 @@ import YellowButton from "./YellowButton"
 
 const links = ["Home", "Services", "About", "Portfolio", "Contact"]
 
-const Top = () => {
+const Header = () => {
   return (
     <nav className="bg-primary py-4">
       <div className="gap-x-8 container flex justify-between max-md:hidden items-center">
@@ -31,4 +31,4 @@ const Top = () => {
   );
 };
 
-export default Top;
+export default Header;

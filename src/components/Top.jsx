@@ -3,26 +3,20 @@ import React from "react";
 const Top = () => {
   return (
     <section className=" bg-primary  ">
-      <div className="  container  flex     justify-between  items-center  max-md:flex-col-reverse flex-row-reverse">
-        <img
-          src=".\img\566193b360d6ff97332245b9f146a844.png"
-          alt=""
-        />
-        <div className="  flex flex-col lg:text-left mt-10 max-md:text-center   ">
-          <h1 className="  text-background text-5xl max-md:text-3xl ">
-            Hello! I’m Kowsar Zahraei An UI/UX Designer{" "}
-          </h1>
-          <p className=" flex text-background py-7 ">
-            Stacks is a production-ready library of stackable content blocks
-            built in <br /> React Native.
+      <div className="  container  flex lg:flex-row   justify-between  items-center  flex-col">
+        <div className="  flex flex-col lg:text-left py-10 text-center  text-background  ">
+          <h1 className="  text-5xl max-md:text-3xl "> Hello! I’m Kowsar Zahraei An UI/UX Designer{" "}</h1>
+          <p className=" flex py-7 ">Stacks is a production-ready library of stackable content blocksbuilt in React Native.
           </p>
+
           <div className="flex gap-8  left-4 items-center max-md:justify-center">
-            <button className=" bg-scenery hover:bg-primary hover:text-black w-40 rounded-3xl text-background  gap-10 text-center px-2   h-12">
+            <button className=" bg-scenery hover:bg-primary hover:text-black w-40 rounded-3xl  gap-10 text-center px-2   h-12">
               Get Started
             </button>
-            <button className=" text-background"> Watch Intro </button>
+            <button className=""> Watch Intro </button>
           </div>
         </div>
+        <img src="/img/566193b360d6ff97332245b9f146a844.png" />
       </div>
     </section>
   );
