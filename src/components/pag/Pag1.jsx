@@ -9,7 +9,6 @@ import Cop from "../Cop";
 import Secendry from "../../Secendry";
 import Footer from "../Footer";
 import Header from "../Header";
-import Circle from "../Circle";
 const Pag1 = () => {
   return (
     <div className=" ">
