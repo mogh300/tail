@@ -17,7 +17,7 @@ const Pag1 = () => {
         <Header></Header>
         <Top></Top>
         <Services></Services>
-        <Circle></Circle>
+       
         <Mid></Mid>
         <Client></Client>
         <Some></Some>

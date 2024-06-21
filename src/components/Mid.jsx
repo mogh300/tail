@@ -1,16 +1,17 @@
 import React from 'react'
+import YellowButton from './YellowButton'
 
 const Mid = () => {
   return (
    
 
-    <section className=' bg-background mt-28  flex flex-col  justify-between container   '>
-      <div className='  flex  flex-col  text-center '>
-        <h1 className=' text-4xl font-bold '>About me</h1>
-        <p className=' text-p pt-5 text-2xl' >Designing solutions, not just a visuals!</p>
-      </div>
-      <div className=' flex flex-row-reverse mt-9 max-md:text-center  z-20  '>
-        <img src="./img/about illustration.png" alt="" />
+    <section className=' relative  mt-28  container   '>
+      <img className='lg:absolute max-md:hidden h-lvh  -z-10  ' src=".\img\Ellipse 1328.png" />  
+        <h1 className=' text-4xl font-bold  text-center'>About me</h1>
+        <p className='  text-InkScribe my-5 text-2xl text-center' >Designing solutions, not just a visuals!</p>
+    
+      <div className=' flex flex-col lg:flex-row  my-9  text-center md:text-left z-20  '>
+       
       <div className='    ' >
        <div className='mt-6   '>
                 <button className=' mt-20 rounded-2xl w-10  bg-rose-400   text-white' >01</button>
@@ -20,10 +21,12 @@ const Mid = () => {
               <div className='mt-10 '>
                 <button className=' rounded-2xl w-10  bg-slate-500  text-white' >02</button>
                 <h2 className='py-4 text-2xl '>8+ years of experience</h2>
-                <p className=' text-InkScribe ' >Stacks is a production-ready library of stackable content blocks built in React Native</p>
-                <button className=' max-md:hidden mt-4 flex justify-center  bg-scenery w-44 rounded-3xl  text-white  gap-5 text-center px-2 items-center  hover:bg-primary hover:text-black   h-12'>Download CV👉</button>
+                <p className=' pb-4 text-InkScribe ' >Stacks is a production-ready library of stackable content blocks built in React Native</p>
+                <YellowButton>Download CV👉</YellowButton>
               </div>
+    
          </div>
+         <img src="./img/about illustration.png" alt="" />
       </div>
   
   
