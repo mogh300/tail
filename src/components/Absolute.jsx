@@ -28,10 +28,10 @@ const Absolute = () => {
   return (
     <>
          {Talk.map((item) => (
-          <div  key={Talk.id} className=" p-16 bg-white md:text-left shadow-md rounded-3xl ">
+          <div  key={Talk.id} className="  relative p-12 bg-white md:text-left shadow-md rounded-3xl ">
           <h1 className=" py-2 "> {item.title}</h1>
-           <p className=" text-InkScribe  text-2xl "> {item.point}</p>
-           <h1 className="  py-2 text-3xl font-bold">{item.profile}</h1>
+           <p className=" text-InkScribe  text-l "> {item.point}</p>
+           <h1 className="  py-2 text-xl font-bold">{item.profile}</h1>
            <p className=" text-InkScribe "> {item.adress}</p>
          </div>
          ))}
