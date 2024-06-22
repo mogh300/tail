@@ -2,7 +2,7 @@ import React from 'react'
 import YellowButton from './YellowButton'
 const Mid = () => {
   return (
-    <section className=' relative  mt-28  z-0 container' >
+    <section className=' relative   z-0 container' >
       <img className='lg:absolute -start-10 max-lg:hidden max-h-screen -z-10' src=".\img\Ellipse 1328.png" />  
         <h1 className=' text-4xl font-bold text-center'>About me</h1>
         <p className='  text-InkScribe my-5 text-2xl text-center' >Designing solutions, not just a visuals!</p>
