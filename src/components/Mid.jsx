@@ -3,7 +3,7 @@ import YellowButton from './YellowButton'
 const Mid = () => {
   return (
     <section className=' relative  mt-28  container'>
-      <img className='lg:absolute max-md:hidden h-lvh -z-10' src=".\img\Ellipse 1328.png" />  
+      <img className='lg:absolute max-lg:hidden h-lvh -z-10' src=".\img\Ellipse 1328.png" />  
         <h1 className=' text-4xl font-bold text-center'>About me</h1>
         <p className='  text-InkScribe my-5 text-2xl text-center' >Designing solutions, not just a visuals!</p>
       <div className=' flex flex-col lg:flex-row my-9  text-center md:text-left z-20'>
